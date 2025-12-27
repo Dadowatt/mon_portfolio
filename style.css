@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 60px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9fa;
+    padding: 10px 40px;
+    height: 70px;
+}
+header h3{
+    cursor: pointer;
+}
+section{
+    padding: 50px 0;
+}
+.navbar{
+    display: flex;
+    gap:20px;
+}
+.navbar a{
+    color: #555;
+}
+.navbar a:hover{
+    color: #23ca99;
+}
+.logo span{
+    color: #fff;
+    background-color: #23ca99;
+    height: 50px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.container{
+    padding: 30px 100px;
+}
+.home{
+    width: 50%;
+}
+.home h2{
+    font-size: 2.5rem;
+}
+.home p{
+    margin-top: 4%;
+    font-size: 1.7rem;
+    color: #555;
+}
+img{
+    width: 500px;
+}
+.home h2{
+    line-height: 4rem;
+}
+.presentation{
+    margin: auto;
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.home a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 3%;
+    font-size: 1.3rem;
+    color: #000;
+    background-color: #23ca99;
+    padding: 10px;
+}
+.home a:hover{
+    background-color: #7fffd4;
+}
+.expertise{
+    background-color: #f8f9fa;
+}
+.section-contact{
+    background-color: #f8f9fa;
+    margin-top: 2%;
+}
+.expertise h2{
+    font-size: 2.5rem;
+}
+.para{
+    margin-top: 8px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+.grid-items{
+    margin: 5% 0;
+}
+.item-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.item-image2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item-image2 img{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.item-image img{
+    height: 300px;
+    width: 430px;
+}
+.bar{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+    padding: 15px 10px;
+    height: 70px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.langage span{
+    margin-right: 5px;
+    color: #23ca99;
+    font-size: 2rem;
+}
+.item-bar{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.langage{
+    display: flex;
+    align-items: center;
+}
+.langage p{
+    font-weight: bold;
+}
+.progress {
+  width: 400px;
+  height: 20px;
+  background: #e5e7eb;
+}
+.progress-bar {
+  height: 100%;
+  width: 80%;
+  background: #22c55e;
+}
+.item-bar .bar:nth-child(2) .progress-bar{
+    width: 65%;
+}
+.item-bar .bar:nth-child(3) .progress-bar{
+    width: 40%;
+}
+.item-bar .bar:nth-child(4) .progress-bar{
+    width: 50%;
+}
+.projet{
+    padding: 30px 100px;
+}
+.title{
+    margin-top: 3%;
+    font-size: 2.5rem;
+}
+.sub-title{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    border: solid 1px #999;
+    font-family: "poppins", sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.cover img{
+    width: 100%;
+    height: 200px;
+}
+.texte h3, p{
+    margin-top: 10px;
+    text-align: left;
+    padding: 8px;
+}
+.texte p{
+    font-size: 15px;
+    line-height: 1.4rem;
+}
+.texte{
+    text-align: center;
+}
+.texte a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: 5px;
+    background-color: #23ca99;
+    color: #000;
+}
+.texte a:hover{
+    background-color: #7fffd4;
+}
+.grid-item-image h2{
+    width: 450px;
+    line-height: 2rem;
+}
+.formulaire{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+form label{
+    display: block;
+    margin: 8px 0;
+}
+form input{
+    width: 100%;
+    border: solid 1px #e5e7eb;
+    padding-left: 10px;
+    height: 40px;
+    outline: none;
+}
+form textarea{
+    padding: 10px;
+    width: 100%;
+    border: solid 1px #e5e7eb;
+}
+input:focus{
+    border: solid 2px #22c55e;
+}
+form button{
+    height: 40px;
+    color: #fff;
+    background-color: #23ca99;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: #7fffd4;
+    cursor: pointer;
+    color: #555;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+    border-top: solid 2px #e5e7eb;
+}
+footer .icons{
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+footer .icons a{
+    color: #23ca99;
+}
+footer .icons a:hover{
+    color: #800080;
+}
+@media (max-width:800px){
+    header{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .presentation{
+        flex-direction: column;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        margin: 5% 0 5% 0;
+        padding: 5px;
+        text-align: center;
+    }
+    .presentation h2{
+        font-size: 16px;
+        line-height: 1.2rem;
+        text-align: left;
+    }
+    .presentation img{
+        width: 80%;
+    }
+    .presentation p{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .presentation a{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 8px;
+        
+    }
+    .item-bar{
+        padding: 0 5px;
+    }
+    .item-bar .bar{
+        width: 80%;
+        margin: auto;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .card{
+         margin-bottom: 2%;
+    }
+    .section-contact{
+        padding: 5px;
+    }
+    .grid-item-image h2{
+        font-size: 1rem;
+        margin-left: 10px
+    }
+    .grid-1{
+        grid-template-columns: 1fr;
+    }
+    .grid-item-form{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        margin-top: 3%;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+    footer h3{
+        margin-top: 2%;
+    }
+}
