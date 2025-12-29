@@ -370,4 +370,7 @@ footer .icons a:hover{
     footer h3{
         margin-top: 2%;
     }
+    h2, p, button{
+        font-size: 1rem;
+    }
 }
